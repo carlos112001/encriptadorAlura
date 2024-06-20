@@ -1,0 +1,235 @@
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    body{
+        background: #E5E5E5;
+    }
+
+    /* Logo */
+
+
+    /* Auto layout */
+    .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    }
+    .primer_contenedor .muñeco{
+     position: absolute;
+     width: 236px;
+     height: 204px;
+    left: 10%;
+    bottom: 41%;
+
+    }
+    .primer_contenedor h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    .contenedor_texto{
+        width: 95%;
+        height: 15%;
+        
+        position: absolute;
+       
+        bottom: 27%;
+    }
+    .contenedor_texto p{
+        position: absolute;
+        text-align: center;
+        top: 25px;
+        bottom: 1px;
+     
+        
+    }
+        .primer_contenedor{
+        /* Rectangle 1 */
+
+    
+
+        position: absolute;
+        width: 330px;
+        height: 540px;
+        left: 1000px;
+        top: 40px;
+
+        /* White */
+
+        background: #FFFFFF;
+        /* shadow */
+
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+        }
+        #resultadotexto{
+            position: absolute;
+            height: 240px;
+            left: 77%;
+            width: 18%;
+            bottom: 50%;
+            outline: none;
+            border: none;
+            font-family: 'Inter';
+            font-size: 20px;
+            display: none;
+            background-color: #FFFFFF;
+            resize: none;
+            
+            
+            
+            
+            
+            
+
+           
+        }
+        
+        #texto{
+            /* Ingrese el texto aqui */
+
+ background-color: rebeccapurple;
+position: absolute;
+width: 577px;
+height: 438px;
+left: 240px;
+top: 168px;
+
+outline: none;
+border: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+background-color:  #E5E5E5;
+/* identical to box height, or 48px */
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+        }
+
+#btn_encriptador{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    padding: 24px;
+    gap: 8px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 40px; 
+   justify-content: center;
+     
+    /* Dark blue/dark-blue-300 */  
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */ 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn_contenedor{
+  
+    /* Frame 3 */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 380px;
+height: 67px;
+left: 240px;
+top: 500px;
+
+}
+      
+#btn_desencriptar{
+    box-sizing: border-box;
+     
+/* Auto layout */
+
+justify-content: center;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+text-align: center;
+width: 170px;
+height: 50px;
+padding-top: 15px;  
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}    
+.copiar{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 1070px;
+top: 500px;
+color: #0A3871;
+text-align: center;
+justify-content: center;
+padding-top: 15px;
+font-family:'Courier New', Courier, monospace;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+display:none;
+}  
+.titulo{
+    display: none;
+    
+}
+ 
+#copiador:hover{
+      background-color: rgb(188, 226, 226);
+      
+}
+#copiador:active{
+    background-color: #3666a1;
+}
+#btn_desencriptar:hover{
+    background-color: rgb(188, 226, 226);
+    
+}
+#btn_desencriptar:active{
+  background-color: #3666a1;
+}

@@ -1,0 +1,53 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Proyecto encriptado-carlos Rojas</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css"> 
+
+        </head>
+        <body>
+            
+        <header>
+            <h1><img class = "logo"src="https://lh3.googleusercontent.com/iajihTYHntO2_OS9TfMR3D3sPhSylVeZOU073dNHjdixogB59hTiK0UaFji_nUVSdoecWT4YtF8Yapotd3T0WeK11HKSTxAZ-hPeCmw2Cg" alt="logo"></h1>
+        </header>
+        <main>
+        <div class="primer_contenedor"> <img class = "muñeco"  id="imagen"src="https://lh3.googleusercontent.com/qqbUyPvfPd5mwjzbCkHJWuDIEobtC69IDL0XDUXByLQL6_mIEsEcCg8fGlAURSuJASxYcGpO6r3rhmlUVKcu1rxNcvLmYcEmlzHl9Q" alt="muñeco">
+     
+            <div class="contenedor_texto">
+                <h1 class="titulo" id="h1_titulo">Ningun mensaje fue encontrado</h1>
+                <p id="parrafo">Ingrese el texto que desee encriptar o desincriptar</p>
+
+            </div>
+        </div>
+        
+            <main>
+            
+                <textarea 
+                id="texto" 
+                cols="30" 
+                rows="10" 
+                placeholder="Ingresa el texto aqui..." 
+                name="texto"
+                ></textarea>
+                <textarea
+                disabled
+                id="resultadotexto" 
+                cols="30" 
+                rows="10" 
+                placeholder="."
+                name="texto"
+                ></textarea>
+                <div class="btn_contenedor">
+                <button id="btn_encriptador" type="button"  onclick="encriptador()">Encriptar</button>
+                <button id="btn_desencriptar" type="button"  onclick="desencriptar()">desencriptar</button>
+                </div>
+                <button id="copiador" class="copiar" type="button" onclick="copiar()">copiar</button>
+            </main>
+
+        </body>
+        <script src="interaccion.js"></script>
+        </html>
